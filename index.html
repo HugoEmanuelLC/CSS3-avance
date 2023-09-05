@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <div></div>
+    </div>
+    <ul>
+        <li>
+            <button class="animation-button">Démarrer l'animation</button>
+        </li>
+        <li>
+            <label for="easing-select">Choisir une fonction de transition :</label>
+            <select id="easing-select">
+                <option selected>linear</option>
+                <option>ease</option>
+                <option>ease-in</option>
+                <option>ease-in-out</option>
+                <option>ease-out</option>
+                <option>cubic-bezier(0.1, -0.6, 0.2, 0)</option>
+                <option>cubic-bezier(0, 1.1, 0.8, 4)</option>
+                <option>steps(5, end)</option>
+                <option>steps(3, start)</option>
+                <option>steps(4)</option>
+            </select>
+        </li>
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
