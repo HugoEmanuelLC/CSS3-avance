@@ -56,3 +56,19 @@ Il existe trois types de fonctions de transition:
     * end est équivalent à jump-end
 
     * end est la valeur par défaut.
+
+### CSS List
+
+exemple :
+
+- < ol start="5" reversed>  //html
+    * // 05 04 03 02 ...
+    * < li></ li>
+    * < li></ li>
+    * < li value="10"></ li>
+    * < li></ li>
+    * // 5 4 10 9
+
+-   ol{
+        list-style-type: decimal-leading-zero;  // css
+    }
